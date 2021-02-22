@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.3</version>
+        <relativePath/>
+    </parent>
+    <packaging>pom</packaging>
+    <groupId>com.lzxx</groupId>
+    <artifactId>sqfx</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>sqfx-java</name>
+    <description>社区飞信 spring boot 后端</description>
+
+    <modules>
+        <module>sqfx-system</module>
+        <module>sqfx-common</module>
+        <module>sqfx-quartz</module>
+        <module>sqfx-property</module>
+        <module>sqfx-convenient</module>
+        <module>sqfx-shop</module>
+    </modules>
+
+    <properties>
+        <!--全局配置项目版本号-->
+        <sqfx.version>0.0.1-SNAPSHOT</sqfx.version>
+        <!--jdk版本号-->
+        <java.version>1.8</java.version>
+        <!--其他版本号-->
+        <fastjson.version>1.2.75</fastjson.version>
+        <lombok.version>1.18.18</lombok.version>
+        <mybatis.version>2.1.3</mybatis.version>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
+        <generator.version>3.4.0</generator.version>
+        <druid.version>1.1.10</druid.version>
+        <mysql.version>8.0.21</mysql.version>
+        <knife4j.version>2.0.3</knife4j.version>
+        <validation.version>2.0.1.Final</validation.version>
+        <jackson.version>2.9.8</jackson.version>
+        <freemarker.version>2.3.30</freemarker.version>
+    </properties>
+
+    <!-- 依赖声明 -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- 子模块依赖 -->
+            <dependency>
+                <groupId>com.lzxx</groupId>
+                <artifactId>sqfx-system</artifactId>
+                <version>${sqfx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lzxx</groupId>
+                <artifactId>sqfx-convenient</artifactId>
+                <version>${sqfx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lzxx</groupId>
+                <artifactId>sqfx-shop</artifactId>
+                <version>${sqfx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lzxx</groupId>
+                <artifactId>sqfx-property</artifactId>
+                <version>${sqfx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lzxx</groupId>
+                <artifactId>sqfx-common</artifactId>
+                <version>${sqfx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lzxx</groupId>
+                <artifactId>sqfx-quartz</artifactId>
+                <version>${sqfx.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <optional>true</optional>
+        </dependency>
+        <!-- json -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

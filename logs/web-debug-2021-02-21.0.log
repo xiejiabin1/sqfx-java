@@ -1,0 +1,768 @@
+2021-02-21 15:02:36.875 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 15:02:37.283 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 15:05:11.273 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 15:05:11.699 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 15:05:50.457 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 15:05:50.843 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 15:05:51.464 [main] DEBUG druid.sql.Connection - {conn-10001} connected
+2021-02-21 15:05:51.467 [main] DEBUG druid.sql.Connection - {conn-10002} connected
+2021-02-21 15:05:51.469 [main] DEBUG druid.sql.Connection - {conn-10003} connected
+2021-02-21 15:05:51.471 [main] DEBUG druid.sql.Connection - {conn-10004} connected
+2021-02-21 15:05:51.473 [main] DEBUG druid.sql.Connection - {conn-10005} connected
+2021-02-21 16:31:27.878 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 16:31:28.262 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 16:52:27.279 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 16:52:27.693 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 16:53:29.991 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 16:53:30.391 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 16:54:30.828 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 16:54:31.236 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 16:56:29.450 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 16:56:29.853 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 16:57:01.498 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 16:57:01.902 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:11:33.588 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:11:34.000 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:36:43.941 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:36:44.394 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:39:52.078 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:39:52.521 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:41:50.013 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:41:50.562 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:41:51.123 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2021-02-21 17:41:51.592 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2021-02-21 17:41:51.593 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:41:51.594 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2021-02-21 17:41:51.594 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:41:51.594 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:41:51.594 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:41:51.594 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/v2/api-docs-ext], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/v2/api-docs-ext], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2021-02-21 17:41:51.602 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2021-02-21 17:41:51.611 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2021-02-21 17:41:51.611 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:41:51.612 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2021-02-21 17:41:51.613 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:41:51.619 [main] DEBUG s.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2021-02-21 17:41:51.620 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2021-02-21 17:41:51.620 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:41:51.628 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.630 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.631 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.634 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.634 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.635 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.636 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.636 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.637 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.638 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.638 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.638 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.639 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.639 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.639 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.640 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.640 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.641 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.641 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.642 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.642 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.643 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:41:51.643 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:41:51.643 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:41:51.649 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2021-02-21 17:41:51.649 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:41:51.649 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:41:51.649 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:41:51.662 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property view
+2021-02-21 17:41:51.664 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:41:51.664 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2021-02-21 17:41:51.664 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property view to model
+2021-02-21 17:41:51.664 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:41:51.664 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:41:51.664 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:41:51.665 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:41:51.668 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property model
+2021-02-21 17:41:51.668 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:41:51.668 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2021-02-21 17:41:51.668 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property model to model
+2021-02-21 17:41:51.668 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:41:51.668 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:41:51.668 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:41:51.668 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:41:51.668 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property status
+2021-02-21 17:41:51.669 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:41:51.669 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2021-02-21 17:41:51.669 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property status to model
+2021-02-21 17:41:51.669 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:41:51.669 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:41:51.669 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:41:51.669 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:41:51.674 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property empty
+2021-02-21 17:41:51.674 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:41:51.674 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2021-02-21 17:41:51.674 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property empty to model
+2021-02-21 17:41:51.674 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:41:51.674 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:41:51.674 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:41:51.674 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:41:51.675 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property viewName
+2021-02-21 17:41:51.675 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:41:51.675 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2021-02-21 17:41:51.675 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property viewName to model
+2021-02-21 17:41:51.675 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:41:51.675 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:41:51.675 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:41:51.676 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:41:51.676 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property modelMap
+2021-02-21 17:41:51.676 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:41:51.676 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2021-02-21 17:41:51.676 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2021-02-21 17:41:51.676 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:41:51.676 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:41:51.676 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:41:51.676 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:41:51.676 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property reference
+2021-02-21 17:41:51.677 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:41:51.677 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2021-02-21 17:41:51.677 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property reference to model
+2021-02-21 17:41:51.677 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:41:51.677 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:41:51.677 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:41:51.677 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:41:51.679 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2021-02-21 17:41:51.680 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2021-02-21 17:41:51.680 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+2021-02-21 17:41:51.680 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2021-02-21 17:41:51.680 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2021-02-21 17:41:51.680 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:41:51.680 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2021-02-21 17:41:51.681 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2021-02-21 17:41:51.681 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property contentType
+2021-02-21 17:41:51.681 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:41:51.681 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2021-02-21 17:41:51.681 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property contentType to model
+2021-02-21 17:41:51.681 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:41:51.681 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:41:51.681 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:41:51.681 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:41:51.681 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2021-02-21 17:41:51.682 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key View
+2021-02-21 17:41:51.682 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.682 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.682 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.683 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.683 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.683 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.683 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.684 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.684 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.684 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.684 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.684 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.685 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.685 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.685 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.685 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.686 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.686 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.686 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.686 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.686 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:51.687 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:41:51.687 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:41:51.687 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:41:56.809 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /doc.html
+2021-02-21 17:41:57.197 [http-nio-4399-exec-2] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources
+2021-02-21 17:41:57.237 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /v2/api-docs
+2021-02-21 17:41:57.237 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)
+2021-02-21 17:42:35.637 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:42:36.168 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:42:36.703 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2021-02-21 17:42:37.171 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2021-02-21 17:42:37.171 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:37.172 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2021-02-21 17:42:37.172 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:37.172 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:37.172 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:37.172 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/v2/api-docs-ext], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/v2/api-docs-ext], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2021-02-21 17:42:37.182 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2021-02-21 17:42:37.189 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2021-02-21 17:42:37.190 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:42:37.190 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2021-02-21 17:42:37.191 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:42:37.196 [main] DEBUG s.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2021-02-21 17:42:37.197 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2021-02-21 17:42:37.197 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:42:37.204 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.206 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.206 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.209 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.210 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.210 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.211 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.211 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.212 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.213 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.213 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.213 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.214 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.215 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.215 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.216 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.216 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.216 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.217 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.217 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.217 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.218 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:37.218 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:37.218 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:37.224 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2021-02-21 17:42:37.224 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:42:37.224 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:42:37.224 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:42:37.238 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property view
+2021-02-21 17:42:37.240 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:37.240 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2021-02-21 17:42:37.240 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property view to model
+2021-02-21 17:42:37.241 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:37.241 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:37.241 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:37.241 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:37.244 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property model
+2021-02-21 17:42:37.244 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:37.244 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2021-02-21 17:42:37.244 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property model to model
+2021-02-21 17:42:37.244 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:37.244 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:37.244 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:37.244 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:37.244 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property status
+2021-02-21 17:42:37.245 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:37.245 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2021-02-21 17:42:37.245 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property status to model
+2021-02-21 17:42:37.245 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:37.245 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:37.245 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:37.245 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:37.249 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property empty
+2021-02-21 17:42:37.249 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:37.249 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2021-02-21 17:42:37.249 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property empty to model
+2021-02-21 17:42:37.249 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:37.249 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:37.249 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:37.249 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:37.249 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property viewName
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:37.250 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2021-02-21 17:42:37.250 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property viewName to model
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:37.250 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property modelMap
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:37.250 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2021-02-21 17:42:37.250 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:37.250 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:37.251 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:37.251 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property reference
+2021-02-21 17:42:37.251 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:37.251 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2021-02-21 17:42:37.251 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property reference to model
+2021-02-21 17:42:37.251 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:37.251 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:37.251 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:37.251 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:37.253 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2021-02-21 17:42:37.253 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2021-02-21 17:42:37.254 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+2021-02-21 17:42:37.254 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2021-02-21 17:42:37.254 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2021-02-21 17:42:37.254 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:42:37.254 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2021-02-21 17:42:37.254 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2021-02-21 17:42:37.255 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property contentType
+2021-02-21 17:42:37.255 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:37.255 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2021-02-21 17:42:37.255 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property contentType to model
+2021-02-21 17:42:37.255 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:37.255 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:37.255 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:37.255 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:37.256 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2021-02-21 17:42:37.256 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key View
+2021-02-21 17:42:37.256 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.257 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.257 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.258 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.258 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.258 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.259 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.259 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.259 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.260 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.260 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.260 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.260 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.261 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.261 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.261 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.261 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.261 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.262 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.262 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.262 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:37.262 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:37.262 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:37.262 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:44.106 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:42:44.663 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:42:45.203 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2021-02-21 17:42:45.660 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2021-02-21 17:42:45.661 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:45.661 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2021-02-21 17:42:45.661 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:45.661 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:45.661 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:42:45.662 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/v2/api-docs-ext], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/v2/api-docs-ext], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2021-02-21 17:42:45.669 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2021-02-21 17:42:45.676 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2021-02-21 17:42:45.676 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:42:45.677 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2021-02-21 17:42:45.678 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:42:45.682 [main] DEBUG s.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2021-02-21 17:42:45.683 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2021-02-21 17:42:45.683 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:42:45.689 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.691 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.692 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.695 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.695 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.695 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.696 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.696 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.696 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.697 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.698 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.698 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.699 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.700 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.700 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.701 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.701 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.701 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.702 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.702 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.702 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.703 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:42:45.703 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:42:45.703 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:42:45.709 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2021-02-21 17:42:45.709 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:42:45.709 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:42:45.709 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:42:45.723 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property view
+2021-02-21 17:42:45.725 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:45.725 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2021-02-21 17:42:45.725 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property view to model
+2021-02-21 17:42:45.725 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:45.726 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:45.726 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:45.726 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:42:45.727 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property model
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:45.728 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2021-02-21 17:42:45.728 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property model to model
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:42:45.728 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property status
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:45.728 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2021-02-21 17:42:45.728 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property status to model
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:45.728 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:45.729 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:42:45.732 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property empty
+2021-02-21 17:42:45.732 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:45.732 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2021-02-21 17:42:45.732 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property empty to model
+2021-02-21 17:42:45.732 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:45.732 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:45.732 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:45.732 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:42:45.732 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property viewName
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:45.733 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2021-02-21 17:42:45.733 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property viewName to model
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:42:45.733 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property modelMap
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:45.733 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2021-02-21 17:42:45.733 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:45.733 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:45.734 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:42:45.734 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property reference
+2021-02-21 17:42:45.734 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:45.734 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2021-02-21 17:42:45.734 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property reference to model
+2021-02-21 17:42:45.734 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:45.734 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:45.734 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:45.734 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:42:45.736 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2021-02-21 17:42:45.736 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2021-02-21 17:42:45.736 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+2021-02-21 17:42:45.737 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2021-02-21 17:42:45.737 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2021-02-21 17:42:45.737 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2021-02-21 17:42:45.738 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property contentType
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:45.738 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2021-02-21 17:42:45.738 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property contentType to model
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:45.738 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:42:45.739 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2021-02-21 17:42:45.739 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key View
+2021-02-21 17:42:45.739 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.740 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.740 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.740 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.740 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.740 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.741 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.741 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.741 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.742 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.742 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.742 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.743 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.743 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.743 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.743 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.743 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.743 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.744 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.744 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.744 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:45.744 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:42:45.745 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:42:45.745 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:42:50.513 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /favicon.ico
+2021-02-21 17:42:50.513 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources
+2021-02-21 17:42:50.521 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /error
+2021-02-21 17:42:50.554 [http-nio-4399-exec-2] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /v2/api-docs
+2021-02-21 17:42:50.554 [http-nio-4399-exec-2] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)
+2021-02-21 17:43:01.588 [http-nio-4399-exec-4] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /error
+2021-02-21 17:43:51.807 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:43:52.370 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:43:52.905 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2021-02-21 17:43:53.362 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2021-02-21 17:43:53.362 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:43:53.363 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2021-02-21 17:43:53.363 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:43:53.363 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:43:53.363 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:43:53.363 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/v2/api-docs-ext], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/v2/api-docs-ext], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2021-02-21 17:43:53.371 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2021-02-21 17:43:53.377 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2021-02-21 17:43:53.378 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:43:53.378 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2021-02-21 17:43:53.379 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:43:53.383 [main] DEBUG s.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2021-02-21 17:43:53.384 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2021-02-21 17:43:53.384 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:43:53.390 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.392 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.392 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.395 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.395 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.396 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.397 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.397 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.397 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.398 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.399 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.399 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.400 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.401 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.401 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.402 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.402 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.402 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.403 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.403 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.403 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.404 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:43:53.404 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:43:53.404 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:43:53.410 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2021-02-21 17:43:53.410 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:43:53.410 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:43:53.411 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:43:53.423 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property view
+2021-02-21 17:43:53.425 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:43:53.425 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2021-02-21 17:43:53.425 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property view to model
+2021-02-21 17:43:53.425 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:43:53.425 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:43:53.426 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:43:53.426 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:43:53.428 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property model
+2021-02-21 17:43:53.428 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:43:53.428 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2021-02-21 17:43:53.428 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property model to model
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:43:53.429 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property status
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:43:53.429 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2021-02-21 17:43:53.429 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property status to model
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:43:53.429 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:43:53.433 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property empty
+2021-02-21 17:43:53.433 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:43:53.433 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2021-02-21 17:43:53.433 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property empty to model
+2021-02-21 17:43:53.433 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:43:53.433 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:43:53.433 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:43:53.433 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:43:53.433 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property viewName
+2021-02-21 17:43:53.433 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:43:53.434 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2021-02-21 17:43:53.434 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property viewName to model
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:43:53.434 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property modelMap
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:43:53.434 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2021-02-21 17:43:53.434 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:43:53.434 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:43:53.435 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property reference
+2021-02-21 17:43:53.435 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:43:53.435 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2021-02-21 17:43:53.435 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property reference to model
+2021-02-21 17:43:53.435 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:43:53.435 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:43:53.435 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:43:53.435 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:43:53.436 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2021-02-21 17:43:53.437 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2021-02-21 17:43:53.437 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+2021-02-21 17:43:53.438 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2021-02-21 17:43:53.438 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2021-02-21 17:43:53.438 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:43:53.438 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2021-02-21 17:43:53.438 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2021-02-21 17:43:53.438 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property contentType
+2021-02-21 17:43:53.439 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:43:53.439 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2021-02-21 17:43:53.439 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property contentType to model
+2021-02-21 17:43:53.439 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:43:53.439 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:43:53.439 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:43:53.439 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:43:53.439 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2021-02-21 17:43:53.439 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key View
+2021-02-21 17:43:53.440 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.440 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.440 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.441 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.441 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.441 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.443 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.443 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.443 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.444 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.444 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.444 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.444 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.444 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.445 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.445 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.445 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.445 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.446 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.446 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.446 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:53.446 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:43:53.446 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:43:53.446 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:43:55.438 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /doc.html
+2021-02-21 17:43:55.798 [http-nio-4399-exec-2] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources
+2021-02-21 17:43:55.834 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /v2/api-docs
+2021-02-21 17:43:55.835 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)
+2021-02-21 17:45:17.287 [main] DEBUG com.lzxx.system.SystemApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-02-21 17:45:17.825 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-21 17:45:18.364 [main] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2021-02-21 17:45:18.853 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2021-02-21 17:45:18.853 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:45:18.853 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2021-02-21 17:45:18.853 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:45:18.853 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:45:18.854 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2021-02-21 17:45:18.854 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/v2/api-docs-ext], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/v2/api-docs-ext], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+2021-02-21 17:45:18.861 [main] DEBUG s.d.s.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2021-02-21 17:45:18.867 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2021-02-21 17:45:18.868 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:45:18.868 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |error|
+2021-02-21 17:45:18.869 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |error|
+2021-02-21 17:45:18.873 [main] DEBUG s.documentation.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2021-02-21 17:45:18.874 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2021-02-21 17:45:18.874 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:45:18.882 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.884 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.884 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.887 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.888 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.888 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.889 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.889 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.890 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.890 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.891 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.891 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.892 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.893 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.893 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.893 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.894 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.894 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.895 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.895 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.895 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.896 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: Map«string,object»
+2021-02-21 17:45:18.896 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Map«string,object»
+2021-02-21 17:45:18.896 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method error
+2021-02-21 17:45:18.902 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2021-02-21 17:45:18.902 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:45:18.902 [main] DEBUG s.d.s.w.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:45:18.902 [main] DEBUG s.d.s.r.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |errorHtml|
+2021-02-21 17:45:18.916 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property view
+2021-02-21 17:45:18.918 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:45:18.918 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+2021-02-21 17:45:18.918 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property view to model
+2021-02-21 17:45:18.919 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:45:18.919 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:45:18.919 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:45:18.919 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+2021-02-21 17:45:18.921 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property model
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:45:18.922 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+2021-02-21 17:45:18.922 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property model to model
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+2021-02-21 17:45:18.922 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property status
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:45:18.922 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+2021-02-21 17:45:18.922 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property status to model
+2021-02-21 17:45:18.922 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:45:18.923 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:45:18.923 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:45:18.923 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+2021-02-21 17:45:18.926 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property empty
+2021-02-21 17:45:18.926 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:45:18.926 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+2021-02-21 17:45:18.926 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property empty to model
+2021-02-21 17:45:18.926 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:45:18.926 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:45:18.926 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:45:18.926 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+2021-02-21 17:45:18.926 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property viewName
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:45:18.927 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+2021-02-21 17:45:18.927 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property viewName to model
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+2021-02-21 17:45:18.927 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property modelMap
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:45:18.927 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+2021-02-21 17:45:18.927 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property modelMap to model
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:45:18.927 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:45:18.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+2021-02-21 17:45:18.928 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property reference
+2021-02-21 17:45:18.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:45:18.928 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+2021-02-21 17:45:18.928 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property reference to model
+2021-02-21 17:45:18.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:45:18.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:45:18.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:45:18.928 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+2021-02-21 17:45:18.930 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2021-02-21 17:45:18.930 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2021-02-21 17:45:18.930 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+2021-02-21 17:45:18.931 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2021-02-21 17:45:18.931 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+2021-02-21 17:45:18.931 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+2021-02-21 17:45:18.931 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2021-02-21 17:45:18.931 [main] DEBUG s.d.schema.DefaultModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2021-02-21 17:45:18.932 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Reading property contentType
+2021-02-21 17:45:18.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:45:18.932 [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+2021-02-21 17:45:18.932 [main] DEBUG s.d.s.property.OptimizedModelPropertiesProvider - Adding property contentType to model
+2021-02-21 17:45:18.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:45:18.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:45:18.932 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:45:18.933 [main] DEBUG s.d.schema.property.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+2021-02-21 17:45:18.933 [main] DEBUG s.documentation.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+2021-02-21 17:45:18.933 [main] DEBUG s.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key View
+2021-02-21 17:45:18.933 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.934 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.934 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.935 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.935 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.935 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.935 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.936 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.936 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.936 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.936 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.937 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.937 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.937 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.937 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.938 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.938 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.938 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.938 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.938 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.938 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:18.939 [main] DEBUG s.d.s.w.r.operation.OperationResponseClassReader - Setting spring response class to: ModelAndView
+2021-02-21 17:45:18.939 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+2021-02-21 17:45:18.939 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method errorHtml
+2021-02-21 17:45:29.609 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /favicon.ico
+2021-02-21 17:45:29.609 [http-nio-4399-exec-2] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources
+2021-02-21 17:45:29.617 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /error
+2021-02-21 17:45:29.651 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /v2/api-docs
+2021-02-21 17:45:29.652 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)

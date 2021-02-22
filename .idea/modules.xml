@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sqfx-common/sqfx-common.iml" filepath="$PROJECT_DIR$/sqfx-common/sqfx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqfx-convenient/sqfx-convenient.iml" filepath="$PROJECT_DIR$/sqfx-convenient/sqfx-convenient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqfx-java.iml" filepath="$PROJECT_DIR$/sqfx-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqfx-property/sqfx-property.iml" filepath="$PROJECT_DIR$/sqfx-property/sqfx-property.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqfx-quartz/sqfx-quartz.iml" filepath="$PROJECT_DIR$/sqfx-quartz/sqfx-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqfx-shop/sqfx-shop.iml" filepath="$PROJECT_DIR$/sqfx-shop/sqfx-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqfx-system/sqfx-system.iml" filepath="$PROJECT_DIR$/sqfx-system/sqfx-system.iml" />
+    </modules>
+  </component>
+</project>

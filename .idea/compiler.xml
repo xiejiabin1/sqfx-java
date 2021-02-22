@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sqfx-property" />
+        <module name="sqfx-quartz" />
+        <module name="sqfx-system" />
+        <module name="sqfx-shop" />
+        <module name="sqfx-common" />
+        <module name="sqfx-convenient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sqfx-admin" target="1.8" />
+      <module name="sqfx-common" target="1.8" />
+      <module name="sqfx-convenient" target="1.8" />
+      <module name="sqfx-java" target="1.8" />
+      <module name="sqfx-property" target="1.8" />
+      <module name="sqfx-quartz" target="1.8" />
+      <module name="sqfx-shop" target="1.8" />
+      <module name="sqfx-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sqfx-admin" options="-parameters" />
+      <module name="sqfx-common" options="-parameters" />
+      <module name="sqfx-convenient" options="-parameters" />
+      <module name="sqfx-java" options="-parameters" />
+      <module name="sqfx-property" options="-parameters" />
+      <module name="sqfx-quartz" options="-parameters" />
+      <module name="sqfx-shop" options="-parameters" />
+      <module name="sqfx-system" options="-parameters" />
+    </option>
+  </component>
+</project>
