@@ -106,6 +106,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.64" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.18" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.75" level="project" />
   </component>

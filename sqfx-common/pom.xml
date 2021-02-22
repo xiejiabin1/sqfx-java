@@ -68,5 +68,11 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/libs/DmJdbcDriver18.jar</systemPath>
         </dependency>
+        <!--证书请求-->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>${bcprov.version}</version>
+        </dependency>
     </dependencies>
 </project>
