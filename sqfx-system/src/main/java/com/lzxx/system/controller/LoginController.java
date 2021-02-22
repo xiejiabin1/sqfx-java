@@ -12,6 +12,7 @@ import com.lzxx.system.model.dto.UserInfoDto;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,10 +28,11 @@ import org.springframework.web.bind.annotation.RestController;
 @Api("登陆controller")
 @RestController
 @RequestMapping("/login")
+@Slf4j
 public class LoginController {
 
-    @ApiOperation(value = "解密用户敏感数据",httpMethod = "GET")
-    @GetMapping("/decodeUserInfo")
+    @ApiOperation(value = "解密用户敏感数据",httpMethod = "POST")
+    @PostMapping("/decodeUserInfo")
     public ResultJSON<UserInfoDto> decodeUserInfo(@ApiParam(value = "加密数据",name = "encryptedData",required = true) String encryptedData,
                                                   @ApiParam(value = "加密算法的初始向量",name = "iv",required = true) String iv,
                                                   @ApiParam(value = "登陆凭证",name = "code",required = true) String code){
@@ -48,37 +50,40 @@ public class LoginController {
         String openid = jsonObject.getString("openid");
         String unionid = jsonObject.getString("unionid");
 
-        //对encryptedData加密数据进行AES解密
-        String result = AESUtil.decryptGet(encryptedData,session_key,iv);
-        JSONObject userInfoJSON = JSONObject.parseObject(result);
+        try{
+            //对encryptedData加密数据进行AES解密
+            String result = AESUtil.decryptGet(encryptedData,session_key,iv);
+            JSONObject userInfoJSON = JSONObject.parseObject(result);
 
-        if (!StringUtils.isEmpty(result) && result.length()>0){
-            UserInfoDto userInfo = new UserInfoDto();
+            if (!StringUtils.isEmpty(result) && result.length()>0){
+                UserInfoDto userInfo = new UserInfoDto();
 
-            userInfo.setGender(userInfoJSON.getInteger("gender"));
-            if(userInfo.getGender() == 1){
-                userInfo.setSex("男");
-            }else if(userInfo.getGender() == 2){
-                userInfo.setSex("女");
+                userInfo.setGender(userInfoJSON.getInteger("gender"));
+                if(userInfo.getGender() == 1){
+                    userInfo.setSex("男");
+                }else if(userInfo.getGender() == 2){
+                    userInfo.setSex("女");
+                }
+
+                if(unionid!=null){
+                    userInfo.setUnionid(unionid);
+                }else{
+                    userInfo.setUnionid(null);
+                }
+
+                userInfo.setSession_key(session_key);
+                userInfo.setOpenid(openid);
+                userInfo.setAvatarUrl(userInfoJSON.getString("avatarUrl"));
+                userInfo.setNickName(userInfoJSON.getString("nickName"));
+                userInfo.setCity(userInfoJSON.getString("city"));
+                userInfo.setProvince(userInfoJSON.getString("province"));
+                userInfo.setCountry(userInfoJSON.getString("language"));
+
+                return ResultJSON.success(userInfo).message("根据登陆凭证解密用户敏感数据");
             }
-
-            if(unionid!=null){
-                userInfo.setUnionid(unionid);
-            }else{
-                userInfo.setUnionid(null);
-            }
-
-            userInfo.setSession_key(session_key);
-            userInfo.setOpenid(openid);
-            userInfo.setAvatarUrl(userInfoJSON.getString("avatarUrl"));
-            userInfo.setNickName(userInfoJSON.getString("nickName"));
-            userInfo.setCity(userInfoJSON.getString("city"));
-            userInfo.setProvince(userInfoJSON.getString("province"));
-            userInfo.setCountry(userInfoJSON.getString("country"));
-
-            return ResultJSON.success(userInfo).message("根据登陆凭证解密用户敏感数据");
+        }catch (Exception e){
+            log.error(ResultCodeEnum.FAIL_DECODE.getMessage());
         }
-
         throw new MyException(ResultCodeEnum.FAIL_DECODE);
     }
 }
