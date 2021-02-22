@@ -17,7 +17,7 @@ import java.util.Map;
  * @description: 登陆 前端控制器
  * @date 2021/2/22
  */
-@Api("登陆前端控制器")
+@Api("登陆controller")
 @RestController
 @RequestMapping("/login")
 public class LoginController {

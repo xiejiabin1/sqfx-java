@@ -27,3 +27,11 @@ logging:
     dao: debug
     org:
       mybatis: debug
+
+wx:
+  # 小程序唯一标识   (在微信小程序管理后台获取)
+  wxspAppid: wx44cd3abca3397a94
+  # 小程序的密钥 (在微信小程序管理后台获取)
+  wxspSecret: 0767fca860389020174c62b97bc17eb6
+  # 授权
+  grant_type: authorization_code
