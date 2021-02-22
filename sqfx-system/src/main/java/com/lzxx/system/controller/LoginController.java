@@ -27,10 +27,6 @@ public class LoginController {
     public ResultJSON decodeUserInfo(@ApiParam(value = "加密数据",name = "encryptedData",required = true) String encryptedData,
                                                          @ApiParam(value = "加密算法的初始向量",name = "iv",required = true) String iv,
                                                          @ApiParam(value = "登陆凭证",name = "code",required = true) String code){
-        //登录凭证不能为空
-        if (code == null || code.length() == 0) {
-
-
-        }
+        return null;
     }
 }
