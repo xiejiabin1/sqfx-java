@@ -12,11 +12,22 @@ import lombok.Getter;
 public enum  ResultCodeEnum {
     SUCCESS(true, "0", "成功"),
     FAIL(false, "1", "失败"),
-    ERROR(false, "-1", "系统异常");
+    ERROR(false, "-1", "系统异常"),
 
-    private Boolean flag;       //是否成功
-    private String code;        //状态码
-    private String message;     //返回信息
+    FAIL_DECODE(false,"101","解密失败");
+
+    /**
+     * 是否成功
+     */
+    private Boolean flag;
+    /**
+     * 状态码
+     */
+    private String code;
+    /**
+     * 返回信息
+     */
+    private String message;
 
     ResultCodeEnum(Boolean flag, String code, String message) {
         this.flag = flag;

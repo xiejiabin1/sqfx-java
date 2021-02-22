@@ -20,14 +20,14 @@ public class GlobalExceptionHandler {
 
     /**
      * 处理业务异常
-     * @param request
      * @param e
      * @return
      */
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
-    public ResultJSON<String> bizExceptionHandler(HttpServletRequest request, Exception e){
-        log.error("发生业务异常！原因是：{}",e.getMessage());
+    public ResultJSON<String> bizExceptionHandler(Exception e){
+        log.error("发生异常！原因是：{}",e.getMessage());
         return ResultJSON.error(e.getMessage());
     }
+
 }

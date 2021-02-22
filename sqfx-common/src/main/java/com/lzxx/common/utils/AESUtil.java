@@ -24,7 +24,7 @@ public class AESUtil {
      * @return
      * @throws Exception
      */
-    public static String decrypt1(String data, String key,String iv){
+    public static String decryptGet(String data, String key,String iv){
         //被加密的数据
         byte[] dataByte = Base64.decodeBase64(data);
         //加密秘钥

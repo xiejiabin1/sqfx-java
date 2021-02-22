@@ -71,6 +71,15 @@ public class ResultJSON<T> implements Serializable {
     }
 
     /**
+     * 请求失败不返回数据
+     */
+    public static<T> ResultJSON<T> fail(){
+        return new ResultJSON<T>(ResultCodeEnum.FAIL.getFlag(),
+                ResultCodeEnum.FAIL.getCode(),
+                ResultCodeEnum.FAIL.getMessage());
+    }
+
+    /**
      * 系统异常
      */
     public static<T> ResultJSON<T> error(T data){
