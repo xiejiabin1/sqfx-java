@@ -85,6 +85,5 @@ public class LoginController {
             log.error(ResultCodeEnum.FAIL_DECODE.getMessage());
         }
         throw new MyException(ResultCodeEnum.FAIL_DECODE);
-
     }
 }
