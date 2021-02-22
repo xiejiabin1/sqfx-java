@@ -76,7 +76,7 @@ public class LoginController {
                 userInfo.setNickName(userInfoJSON.getString("nickName"));
                 userInfo.setCity(userInfoJSON.getString("city"));
                 userInfo.setProvince(userInfoJSON.getString("province"));
-                userInfo.setCountry(userInfoJSON.getString("language"));
+                userInfo.setLanguage(userInfoJSON.getString("language"));
 
                 return ResultJSON.success(userInfo).message("根据登陆凭证解密用户敏感数据");
             }

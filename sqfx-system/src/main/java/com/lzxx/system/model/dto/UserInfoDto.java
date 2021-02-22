@@ -21,7 +21,7 @@ public class UserInfoDto {
     @TableField("openid")
     private String openid;
 
-    @ApiModelProperty(value = "区分程序的标识")
+    @ApiModelProperty(value = "区分小程序、公众号唯一的标识")
     @TableField("unionid")
     private String unionid;
 
@@ -45,9 +45,9 @@ public class UserInfoDto {
     @TableField("nickName")
     private String nickName;
 
-    @ApiModelProperty(value = "国家")
-    @TableField("country")
-    private String country;
+    @ApiModelProperty(value = "语言")
+    @TableField("language")
+    private String language;
 
     @ApiModelProperty(value = "省份")
     @TableField("province")
