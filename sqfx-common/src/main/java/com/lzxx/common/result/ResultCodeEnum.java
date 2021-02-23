@@ -14,7 +14,8 @@ public enum  ResultCodeEnum {
     FAIL(false, "1", "失败"),
     ERROR(false, "-1", "系统异常"),
 
-    FAIL_DECODE(false,"101","解密失败");
+    FAIL_DECODE(false,"101","解密失败"),
+    FAIL_PHONE(false,"102","手机号获取失败");
 
     /**
      * 是否成功

@@ -49,6 +49,10 @@ public class UserInfoDto {
     @TableField("language")
     private String language;
 
+    @ApiModelProperty(value = "国家")
+    @TableField("country")
+    private String country;
+
     @ApiModelProperty(value = "省份")
     @TableField("province")
     private String province;

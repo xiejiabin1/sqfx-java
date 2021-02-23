@@ -1,301 +1,301 @@
-2021-02-22 08:53:03.445 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 9536 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 08:53:03.445 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 08:53:04.320 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 08:53:04.335 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 08:53:04.335 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 08:53:04.335 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 08:53:04.398 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 08:53:04.398 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 906 ms
-2021-02-22 08:53:04.429 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 08:53:04.429 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 08:53:04.710 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 08:53:04.773 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 08:53:05.163 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 08:53:05.179 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 08:53:05.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 08:53:05.194 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 08:53:05.210 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 08:53:05.226 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 08:53:05.319 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.295 seconds (JVM running for 2.885)
-2021-02-22 08:53:45.136 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 08:53:45.136 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 08:53:45.136 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2021-02-22 10:15:20.610 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 11176 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 10:15:20.612 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 10:15:21.364 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 10:15:21.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 10:15:21.371 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 10:15:21.371 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 10:15:21.420 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 10:15:21.420 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 775 ms
-2021-02-22 10:15:21.450 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 10:15:21.450 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 10:15:21.690 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 10:15:21.740 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 10:15:22.100 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 10:15:22.120 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 10:15:22.135 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 10:15:22.135 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 10:15:22.140 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 10:15:22.160 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 10:15:22.270 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.025 seconds (JVM running for 2.524)
-2021-02-22 13:40:19.343 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 8992 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 13:40:19.344 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 13:40:20.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 13:40:20.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:40:20.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 13:40:20.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 13:40:20.244 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 13:40:20.244 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 866 ms
-2021-02-22 13:40:20.277 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 13:40:20.279 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 13:40:20.527 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 13:40:20.582 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 13:40:20.956 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 13:40:20.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:40:20.990 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 13:40:20.991 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 13:40:21.001 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 13:40:21.018 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 13:40:21.145 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.167 seconds (JVM running for 2.655)
-2021-02-22 13:40:40.106 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 13:40:40.106 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 13:40:40.107 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 13:44:50.137 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 13600 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 13:44:50.139 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 13:44:50.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 13:44:50.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:44:50.931 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 13:44:50.932 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 13:44:50.985 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 13:44:50.986 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
-2021-02-22 13:44:51.017 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 13:44:51.019 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 13:44:51.262 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 13:44:51.315 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 13:44:51.681 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 13:44:51.705 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:44:51.715 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 13:44:51.716 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 13:44:51.725 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 13:44:51.743 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 13:44:51.872 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.093 seconds (JVM running for 2.566)
-2021-02-22 13:47:12.438 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 13:47:12.438 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 13:47:12.439 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 13:50:20.756 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 12548 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 13:50:20.756 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 13:50:23.583 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 15016 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 13:50:23.583 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 13:50:24.427 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 13:50:24.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:50:24.442 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 13:50:24.442 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 13:50:24.489 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 13:50:24.489 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
-2021-02-22 13:50:24.536 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 13:50:24.536 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 13:50:24.833 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 13:50:24.927 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 13:50:25.286 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 13:50:25.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:50:25.317 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 13:50:25.317 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 13:50:25.333 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 13:50:25.348 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 13:50:25.489 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.256 seconds (JVM running for 3.185)
-2021-02-22 13:50:28.790 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 13:50:28.790 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 13:50:28.791 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 13:54:27.101 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 13:54:27.101 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 13:54:29.507 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 13360 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 13:54:29.507 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 13:54:30.335 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 13:54:30.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:54:30.351 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 13:54:30.351 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 13:54:30.398 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 13:54:30.398 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 860 ms
-2021-02-22 13:54:30.429 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 13:54:30.444 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 13:54:30.710 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 13:54:30.804 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 13:54:31.147 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 13:54:31.163 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 13:54:31.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 13:54:31.179 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 13:54:31.194 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 13:54:31.210 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 13:54:31.351 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.246 seconds (JVM running for 2.902)
-2021-02-22 14:04:08.699 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:04:08.699 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:04:08.700 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 14:05:35.807 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:05:35.807 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:05:38.227 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 4028 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:05:38.229 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:05:39.147 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:05:39.159 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:05:39.159 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:05:39.160 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:05:39.226 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:05:39.226 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 956 ms
-2021-02-22 14:05:39.261 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:05:39.261 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:05:39.527 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:05:39.620 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:05:39.964 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:05:39.995 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:05:39.995 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:05:39.995 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:05:40.011 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:05:40.042 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:05:40.183 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.379 seconds (JVM running for 3.048)
-2021-02-22 14:07:08.980 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:07:08.980 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:07:08.981 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 14:14:34.997 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:14:34.997 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:14:38.597 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 3608 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:14:38.599 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:14:39.474 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:14:39.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:14:39.481 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:14:39.481 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:14:39.542 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:14:39.542 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 901 ms
-2021-02-22 14:14:39.582 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:14:39.584 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:14:39.894 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:14:39.997 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:14:40.371 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:14:40.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:14:40.409 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:14:40.410 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:14:40.422 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:14:40.443 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:14:40.582 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.406 seconds (JVM running for 2.968)
-2021-02-22 14:14:51.851 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:14:51.851 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:14:51.852 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 14:20:06.980 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:20:06.980 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:20:09.452 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 10936 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:20:09.454 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:20:10.333 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:20:10.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:20:10.339 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:20:10.340 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:20:10.396 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:20:10.396 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 901 ms
-2021-02-22 14:20:10.431 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:20:10.433 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:20:10.711 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:20:10.816 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:20:11.176 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:20:11.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:20:11.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:20:11.223 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:20:11.239 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:20:11.254 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:20:11.395 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.379 seconds (JVM running for 3.001)
-2021-02-22 14:20:14.910 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:20:14.910 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:20:14.910 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2021-02-22 14:23:04.417 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:23:04.417 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:23:06.772 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 7408 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:23:06.772 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:23:07.630 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:23:07.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:23:07.640 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:23:07.640 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:23:07.708 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:23:07.708 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
-2021-02-22 14:23:07.746 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:23:07.748 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:23:08.028 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:23:08.125 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:23:08.473 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:23:08.498 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:23:08.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:23:08.511 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:23:08.522 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:23:08.542 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:23:08.677 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.325 seconds (JVM running for 2.895)
-2021-02-22 14:23:18.047 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:23:18.047 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:23:18.048 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 14:27:04.401 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:27:04.401 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:27:08.069 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 9228 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:27:08.072 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:27:08.960 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:27:08.965 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:27:08.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:27:08.966 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:27:09.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:27:09.024 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 910 ms
-2021-02-22 14:27:09.059 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:27:09.061 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:27:09.338 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:27:09.431 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:27:09.802 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:27:09.817 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:27:09.833 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:27:09.833 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:27:09.849 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:27:09.864 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:27:09.989 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.355 seconds (JVM running for 2.916)
-2021-02-22 14:27:13.069 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:27:13.069 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:27:13.069 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2021-02-22 14:29:38.052 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:29:38.052 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:29:41.673 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 6580 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:29:41.673 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:29:42.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:29:42.579 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:29:42.579 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:29:42.579 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:29:42.626 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:29:42.626 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 906 ms
-2021-02-22 14:29:42.673 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:29:42.673 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:29:42.967 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:29:43.061 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:29:43.404 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:29:43.436 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:29:43.451 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:29:43.451 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:29:43.451 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:29:43.482 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:29:43.607 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.372 seconds (JVM running for 2.917)
-2021-02-22 14:29:48.043 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:29:48.043 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:29:48.044 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-02-22 14:33:13.870 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-2021-02-22 14:33:13.870 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:33:17.147 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 12164 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
-2021-02-22 14:33:17.147 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
-2021-02-22 14:33:17.913 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
-2021-02-22 14:33:17.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:33:17.929 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-02-22 14:33:17.929 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-22 14:33:17.975 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-02-22 14:33:17.975 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 796 ms
-2021-02-22 14:33:18.007 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
-2021-02-22 14:33:18.007 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
-2021-02-22 14:33:18.241 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-02-22 14:33:18.303 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-22 14:33:18.663 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2021-02-22 14:33:18.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
-2021-02-22 14:33:18.694 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
-2021-02-22 14:33:18.694 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-02-22 14:33:18.710 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-02-22 14:33:18.725 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-02-22 14:33:18.835 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.049 seconds (JVM running for 2.507)
-2021-02-22 14:33:28.176 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-22 14:33:28.177 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-02-22 14:33:28.177 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-02-23 10:47:29.827 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 11944 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 10:47:29.842 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 10:47:30.718 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 10:47:30.718 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 10:47:30.718 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 10:47:30.718 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 10:47:30.780 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 10:47:30.780 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 906 ms
+2021-02-23 10:47:30.827 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 10:47:30.827 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 10:47:31.093 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 10:47:31.158 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 10:47:31.549 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 10:47:31.564 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 10:47:31.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 10:47:31.580 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 10:47:31.595 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 10:47:31.611 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 10:47:31.736 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.33 seconds (JVM running for 2.915)
+2021-02-23 10:48:03.060 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 10:48:03.060 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 10:48:03.060 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-02-23 10:50:37.413 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 10736 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 10:50:37.413 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 10:50:38.189 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 10:50:38.204 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 10:50:38.204 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 10:50:38.204 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 10:50:38.251 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 10:50:38.251 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 807 ms
+2021-02-23 10:50:38.298 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 10:50:38.298 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 10:50:38.589 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 10:50:38.643 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 10:50:39.024 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 10:50:39.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 10:50:39.061 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 10:50:39.062 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 10:50:39.072 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 10:50:39.091 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 10:50:39.218 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.155 seconds (JVM running for 2.627)
+2021-02-23 10:57:00.112 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 10:57:00.112 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 10:57:00.113 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 11:36:20.344 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 3960 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:36:20.347 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:36:21.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:36:21.181 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:36:21.181 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:36:21.182 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:36:21.234 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:36:21.234 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
+2021-02-23 11:36:21.265 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:36:21.266 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:36:21.518 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:36:21.568 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:36:21.933 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:36:21.966 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:36:21.983 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:36:21.985 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:36:21.998 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:36:22.021 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:36:22.141 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.167 seconds (JVM running for 2.636)
+2021-02-23 11:38:53.361 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 2668 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:38:53.361 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:38:54.131 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:38:54.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:38:54.131 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:38:54.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:38:54.200 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:38:54.200 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 807 ms
+2021-02-23 11:38:54.233 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:38:54.233 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:38:54.468 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:38:54.514 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:38:54.858 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:38:54.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:38:54.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:38:54.905 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:38:54.905 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:38:54.921 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:38:55.048 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.027 seconds (JVM running for 2.476)
+2021-02-23 11:39:03.251 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 11:39:03.251 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 11:39:03.252 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 11:40:03.603 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 6608 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:40:03.605 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:40:04.370 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:40:04.375 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:40:04.375 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:40:04.375 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:40:04.426 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:40:04.426 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 786 ms
+2021-02-23 11:40:04.456 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:40:04.458 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:40:04.695 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:40:04.745 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:40:05.104 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:40:05.127 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:40:05.137 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:40:05.138 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:40:05.147 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:40:05.164 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:40:05.288 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.036 seconds (JVM running for 2.503)
+2021-02-23 11:42:46.833 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 10376 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:42:46.833 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:42:47.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:42:47.599 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:42:47.599 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:42:47.599 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:42:47.646 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:42:47.646 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 782 ms
+2021-02-23 11:42:47.677 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:42:47.677 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:42:47.911 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:42:47.958 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:42:48.317 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:42:48.333 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:42:48.349 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:42:48.349 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:42:48.349 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:42:48.380 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:42:48.489 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 1.998 seconds (JVM running for 2.502)
+2021-02-23 11:42:51.542 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 11:42:51.542 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 11:42:51.543 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 11:43:21.765 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 11828 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:43:21.765 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:43:22.562 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:43:22.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:43:22.562 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:43:22.562 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:43:22.624 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:43:22.624 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 812 ms
+2021-02-23 11:43:22.656 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:43:22.656 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:43:22.890 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:43:22.937 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:43:23.280 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:43:23.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:43:23.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:43:23.312 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:43:23.327 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:43:23.343 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:43:23.468 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.066 seconds (JVM running for 2.59)
+2021-02-23 11:43:35.602 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 3892 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:43:35.602 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:43:36.430 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:43:36.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:43:36.445 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:43:36.445 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:43:36.492 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:43:36.492 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+2021-02-23 11:43:36.523 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:43:36.539 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:43:36.773 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:43:36.820 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:43:37.164 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:43:37.195 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:43:37.195 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:43:37.195 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:43:37.211 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:43:37.226 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:43:37.351 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.097 seconds (JVM running for 2.557)
+2021-02-23 11:43:43.490 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 11:43:43.490 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 11:43:43.491 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 11:43:59.061 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 1744 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:43:59.061 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:43:59.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:43:59.905 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:43:59.905 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:43:59.905 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:43:59.967 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:43:59.967 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+2021-02-23 11:43:59.998 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:43:59.998 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:44:00.295 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:44:00.373 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:44:00.717 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:44:00.748 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:44:00.764 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:44:00.764 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:44:00.764 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:44:00.795 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:44:00.936 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.224 seconds (JVM running for 3.218)
+2021-02-23 11:44:04.073 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 11:44:04.073 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 11:44:04.074 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 11:46:01.327 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 11:46:01.327 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:46:04.924 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 7376 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:46:04.926 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:46:05.831 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:46:05.837 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:46:05.837 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:46:05.838 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:46:05.895 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:46:05.895 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 927 ms
+2021-02-23 11:46:05.929 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:46:05.932 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:46:06.214 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:46:06.331 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:46:06.707 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:46:06.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:46:06.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:46:06.746 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:46:06.757 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:46:06.779 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:46:06.919 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.437 seconds (JVM running for 3.042)
+2021-02-23 11:46:11.900 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 11:46:11.900 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 11:46:11.901 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 11:47:22.239 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 11:47:22.239 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:47:25.736 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 4936 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:47:25.752 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:47:26.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:47:26.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:47:26.595 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:47:26.595 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:47:26.658 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:47:26.658 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 875 ms
+2021-02-23 11:47:26.689 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:47:26.689 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:47:26.955 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:47:27.048 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:47:27.408 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:47:27.423 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:47:27.439 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:47:27.439 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:47:27.454 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:47:27.470 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:47:27.611 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.284 seconds (JVM running for 2.849)
+2021-02-23 11:48:23.581 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 11:48:23.581 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:48:26.970 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 4852 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 11:48:26.970 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 11:48:27.813 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 11:48:27.813 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:48:27.813 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 11:48:27.813 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 11:48:27.876 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 11:48:27.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+2021-02-23 11:48:27.907 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 11:48:27.907 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 11:48:28.173 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 11:48:28.266 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 11:48:28.610 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 11:48:28.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 11:48:28.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 11:48:28.641 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 11:48:28.657 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 11:48:28.672 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 11:48:28.813 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.253 seconds (JVM running for 2.799)
+2021-02-23 11:48:32.220 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 11:48:32.220 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 11:48:32.221 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 13:11:35.347 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 13:11:35.347 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 13:11:38.983 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 9688 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 13:11:38.983 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 13:11:39.733 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 13:11:39.749 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 13:11:39.749 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 13:11:39.749 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 13:11:39.796 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 13:11:39.796 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2021-02-23 13:11:39.827 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 13:11:39.827 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 13:11:40.061 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 13:11:40.108 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 13:11:40.468 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 13:11:40.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 13:11:40.499 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 13:11:40.499 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 13:11:40.499 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 13:11:40.514 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 13:11:40.639 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 1.993 seconds (JVM running for 2.451)
+2021-02-23 13:15:38.073 [http-nio-4399-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 13:15:38.073 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 13:15:38.074 [http-nio-4399-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-02-23 14:41:41.429 [main] INFO  com.lzxx.system.SystemApplication - Starting SystemApplication using Java 1.8.0_181 on DESKTOP-AUBNEG7 with PID 2876 (D:\space\java\sqfx-java\sqfx-system\target\classes started by 25012 in D:\space\java\sqfx-java)
+2021-02-23 14:41:41.429 [main] INFO  com.lzxx.system.SystemApplication - The following profiles are active: dev
+2021-02-23 14:41:42.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 4399 (http)
+2021-02-23 14:41:42.190 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4399"]
+2021-02-23 14:41:42.190 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 14:41:42.190 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-23 14:41:42.240 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 14:41:42.240 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2021-02-23 14:41:42.274 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-02-23 14:41:42.279 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2021-02-23 14:41:42.514 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-23 14:41:42.561 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 14:41:42.914 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 14:41:42.939 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4399"]
+2021-02-23 14:41:42.950 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4399 (http) with context path ''
+2021-02-23 14:41:42.950 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-02-23 14:41:42.960 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-02-23 14:41:42.974 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-02-23 14:41:43.094 [main] INFO  com.lzxx.system.SystemApplication - Started SystemApplication in 2.014 seconds (JVM running for 2.48)
