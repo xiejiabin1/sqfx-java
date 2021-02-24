@@ -46,7 +46,7 @@ public class CodeGenerator {
         // 项目根目录
         //String projectPath = System.getProperty("user.dir");
         // 用于多个模块下生成到精确的目录下（我设置在桌面）
-        String projectPath = "C:/Users/xie/Desktop";
+        String projectPath = "C:/Users/25012/Desktop";
         // 代码生成目录
         gc.setOutputDir(projectPath + "/src/main/java");
         // 开发人员
@@ -177,8 +177,9 @@ public class CodeGenerator {
         strategy.setEntityTableFieldAnnotationEnable(true);
         // 驼峰转连字符
         strategy.setControllerMappingHyphenStyle(true);
-        // 表前缀
-        strategy.setTablePrefix(pc.getModuleName() + "_");
+        // 去掉表前缀
+        //strategy.setTablePrefix(pc.getModuleName() + "_");
+        strategy.setTablePrefix(pc.getModuleName() + "system_");
 
         // 把数据库配置添加到代码生成器主类
         mpg.setStrategy(strategy);
