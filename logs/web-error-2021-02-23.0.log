@@ -1,0 +1,6 @@
+2021-02-23 11:42:52.126 [http-nio-4399-exec-2] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：null
+2021-02-23 11:43:44.112 [http-nio-4399-exec-2] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：null
+2021-02-23 11:45:24.016 [http-nio-4399-exec-2] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：null
+2021-02-23 11:46:01.180 [http-nio-4399-exec-4] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：null
+2021-02-23 11:47:22.096 [http-nio-4399-exec-2] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：null
+2021-02-23 11:49:37.571 [http-nio-4399-exec-2] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：Impossible modulus [1]
