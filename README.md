@@ -5,7 +5,7 @@
 当前最新版本：1.0.0 （开发中，尚未发布）
 
 
-[![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE)
+[![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)
 [![](https://img.shields.io/badge/Author-湖南醴智信息-orange.svg)
 [![](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/xiejiabin1/sqfx-java)
 [![GitHub stars](https://img.shields.io/github/stars/xiejiabin1/sqfx-java.svg?style=social&label=Stars)](https://github.com/xiejiabin1/sqfx-java)
