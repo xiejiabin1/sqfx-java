@@ -1938,3 +1938,7 @@
 2021-02-24 09:39:44.841 [main] DEBUG s.d.s.readers.operation.VendorExtensionsReader - Extension count 1 for method decodeUserPhone
 2021-02-24 09:39:44.841 [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:Response对象«UserPhoneDto对象»
 2021-02-24 09:39:44.841 [main] DEBUG s.d.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method decodeUserPhone
+2021-02-24 09:42:47.656 [http-nio-4399-exec-1] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /system/login/decodeUserInfo
+2021-02-24 10:24:04.894 [http-nio-4399-exec-3] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /system/login/decodeUserInfo
+2021-02-24 10:27:20.486 [http-nio-4399-exec-5] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /system/login/decodeUserInfo
+2021-02-24 10:29:21.835 [http-nio-4399-exec-7] DEBUG s.d.s.w.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /system/login/decodeUserInfo
