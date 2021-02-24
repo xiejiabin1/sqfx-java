@@ -4,8 +4,6 @@ import org.apache.tomcat.util.codec.binary.Base64;
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.UnsupportedEncodingException;
-import java.security.*;
 import java.security.spec.AlgorithmParameterSpec;
 
 /**
