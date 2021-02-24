@@ -128,3 +128,34 @@ java.lang.NoClassDefFoundError: com/lzxx/common/utils/HttpUtil
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 15:53:17.889 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 4399 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 4399 or configure this application to listen on another port.
+
+2021-02-24 15:53:45.258 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 4399 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 4399 or configure this application to listen on another port.
+
+2021-02-24 16:12:12.564 [http-nio-4399-exec-5] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：null
+2021-02-24 16:26:45.495 [http-nio-5000-exec-9] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：Impossible modulus [1]
+2021-02-24 16:27:51.008 [http-nio-5000-exec-2] ERROR com.lzxx.common.exception.GlobalExceptionHandler - 发生异常！原因是：Impossible modulus [1]

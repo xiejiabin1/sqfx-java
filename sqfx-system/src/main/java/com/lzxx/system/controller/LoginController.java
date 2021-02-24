@@ -83,14 +83,14 @@ public class LoginController {
 
                 return ResultJSON.success(userInfo).message("根据登陆凭证解密用户敏感数据");
             }
-            return ResultJSON.fail(userInfo);
+            return ResultJSON.fail(userInfo).message("解密失败");
         }catch (MyException e){
             log.error(ResultCodeEnum.FAIL_DECODE.getMessage());
             throw new MyException(ResultCodeEnum.FAIL_DECODE);
         }
     }
 
-    @ApiOperation(value = "解密用户敏感数据",httpMethod = "POST")
+    @ApiOperation(value = "解密用户手机号",httpMethod = "POST")
     @PostMapping("/decodeUserPhone")
     public ResultJSON<UserPhoneDto> decodeUserPhone(@ApiParam(value = "加密数据",name = "encryptedData",required = true) String encryptedData,
                                                   @ApiParam(value = "加密算法的初始向量",name = "iv",required = true) String iv,
@@ -99,6 +99,7 @@ public class LoginController {
             //AES解密
             String result = AESUtil.decryptGet(encryptedData,session_key,iv);
             JSONObject userPhoneJSON = JSONObject.parseObject(result);
+            System.out.println(result);
 
             UserPhoneDto userPhone = new UserPhoneDto();
 
@@ -112,7 +113,7 @@ public class LoginController {
 
                 return ResultJSON.success(userPhone).message("根据会话密钥解密用户绑定手机号");
             }
-            return ResultJSON.fail(userPhone);
+            return ResultJSON.fail(userPhone).message("手机号获取失败");
         }catch (MyException e){
             log.error(ResultCodeEnum.FAIL_PHONE.getMessage());
             throw new MyException(ResultCodeEnum.FAIL_PHONE);

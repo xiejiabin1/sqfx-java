@@ -65,5 +65,9 @@ public class User implements Serializable {
     @TableField("house_id")
     private Long houseId;
 
+    @ApiModelProperty(value = "是否认证成功")
+    @TableField("isAuthentication")
+    private Boolean isAuthentication;
+
 
 }
