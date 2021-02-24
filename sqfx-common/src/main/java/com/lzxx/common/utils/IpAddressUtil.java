@@ -3,9 +3,9 @@ package com.lzxx.common.utils;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @description: ip地址工具类
- * @author: 先谢郭嘉
- * @create: 2021/2/22
+ * @ description: ip地址工具类
+ * @ author: 先谢郭嘉
+ * @ create: 2021/2/22
  **/
 public class IpAddressUtil {
     public static String getIpAddress(HttpServletRequest request) {

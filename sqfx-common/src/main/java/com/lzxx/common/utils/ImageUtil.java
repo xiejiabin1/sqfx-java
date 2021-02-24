@@ -11,9 +11,9 @@ import java.net.URL;
 import java.util.Base64;
 
 /**
- * @description: 图片工具类
- * @author: 先谢郭嘉
- * @create: 2021/2/22
+ * @ description: 图片工具类
+ * @ author: 先谢郭嘉
+ * @ create: 2021/2/22
  **/
 public class ImageUtil {
     /**

@@ -9,9 +9,9 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 /**
- * @description: cookie工具类
- * @author: 先谢郭嘉
- * @create: 2021/2/22
+ * @ description: cookie工具类
+ * @ author: 先谢郭嘉
+ * @ create: 2021/2/22
  **/
 public class CookieUtil {
     /**
