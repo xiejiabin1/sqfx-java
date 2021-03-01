@@ -109,8 +109,6 @@ public class LoginController {
                 userPhone.setPhoneNumber(userPhoneJSON.getString("phoneNumber"));
                 userPhone.setPurePhoneNumber(userPhoneJSON.getString("purePhoneNumber"));
 
-                System.out.println(userPhone.toString());
-
                 return ResultJSON.success(userPhone).message("根据会话密钥解密用户绑定手机号");
             }
             return ResultJSON.fail(userPhone).message("手机号获取失败");

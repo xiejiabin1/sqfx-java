@@ -1,0 +1,225 @@
+2021-02-24 08:39:00.519 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 08:39:00.519 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 08:47:56.291 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 08:47:56.291 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 08:58:56.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 09:05:39.123 [http-nio-4399-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.lzxx.common.exception.GlobalExceptionHandler#bizExceptionHandler(Exception)
+java.lang.NoClassDefFoundError: com/lzxx/common/result/ResultCodeEnum
+	at com.lzxx.common.result.ResultJSON.error(ResultJSON.java:86)
+	at com.lzxx.common.exception.GlobalExceptionHandler.bizExceptionHandler(GlobalExceptionHandler.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1320)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1131)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.lzxx.common.result.ResultCodeEnum
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 64 common frames omitted
+2021-02-24 09:06:43.973 [http-nio-4399-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.lzxx.common.exception.GlobalExceptionHandler#bizExceptionHandler(Exception)
+java.lang.NoClassDefFoundError: com/lzxx/common/result/ResultCodeEnum
+	at com.lzxx.common.result.ResultJSON.error(ResultJSON.java:86)
+	at com.lzxx.common.exception.GlobalExceptionHandler.bizExceptionHandler(GlobalExceptionHandler.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1320)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1131)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 09:37:11.752 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 09:37:11.752 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 09:39:43.748 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 09:39:43.748 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:16.320 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 15:53:17.853 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 4399 is already in use
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:53:43.672 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 15:53:45.224 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 4399 is already in use
+2021-02-24 15:54:21.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:54:21.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:54:21.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:54:21.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:54:21.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:54:21.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 15:54:21.465 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 16:11:20.940 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:11:20.941 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:11:20.941 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:11:20.941 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:11:20.941 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:11:20.941 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:11:20.941 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:12:00.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:21:09.491 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:27:28.813 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:39:05.306 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 16:44:30.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.
+2021-02-24 17:21:16.845 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'certificateMapper' and 'com.lzxx.system.mapper.CertificateMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 17:21:16.845 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'communityMapper' and 'com.lzxx.system.mapper.CommunityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 17:21:16.845 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'houseMapper' and 'com.lzxx.system.mapper.HouseMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 17:21:16.845 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'identityMapper' and 'com.lzxx.system.mapper.IdentityMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 17:21:16.846 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMapper' and 'com.lzxx.system.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 17:21:16.846 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userTypeMapper' and 'com.lzxx.system.mapper.UserTypeMapper' mapperInterface. Bean already defined with the same name!
+2021-02-24 17:21:16.846 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzxx.**.mapper]' package. Please check your configuration.

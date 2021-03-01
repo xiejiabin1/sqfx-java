@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sqfx-property:war">
+    <output-path>$PROJECT_DIR$/sqfx-property/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sqfx-property</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sqfx-property-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sqfx-property:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/sqfx-common" />
+    <file type="web" url="file://$PROJECT_DIR$/sqfx-property" />
+    <file type="web" url="file://$PROJECT_DIR$/sqfx-system" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
