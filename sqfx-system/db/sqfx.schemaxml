@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="utf8mb4" collation="utf8mb4_general_ci">sqfx</database>
+</source>
+<canvas zoom="130">
+<tables>
+<table name="system_certificate" view="colnames">
+<left>57</left>
+<top>295</top>
+<width>183</width>
+<height>168</height>
+<sql_create_table>CREATE TABLE `system_certificate` (
+  `certificate_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '证件类型编号',
+  `certificate_name` varchar(50) DEFAULT NULL COMMENT '证件类型名词',
+  `user_type_id` int(11) DEFAULT NULL COMMENT '用户类型编号',
+  PRIMARY KEY (`certificate_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COMMENT='证件类型表'</sql_create_table>
+</table>
+<table name="system_community" view="colnames">
+<left>1125</left>
+<top>378</top>
+<width>192</width>
+<height>190</height>
+<sql_create_table>CREATE TABLE `system_community` (
+  `community_id` varchar(50) NOT NULL COMMENT '社区编号',
+  `community_name` varchar(50) DEFAULT NULL COMMENT '社区名称',
+  `province` varchar(50) DEFAULT NULL COMMENT '省份',
+  `city` varchar(50) DEFAULT NULL COMMENT '城市',
+  PRIMARY KEY (`community_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='社区表'</sql_create_table>
+</table>
+<table name="system_house" view="colnames">
+<left>816</left>
+<top>354</top>
+<width>176</width>
+<height>212</height>
+<sql_create_table>CREATE TABLE `system_house` (
+  `house_id` bigint(20) NOT NULL COMMENT '房屋编号',
+  `community_id` varchar(50) DEFAULT NULL COMMENT '社区编号',
+  `buildingNumber` varchar(50) DEFAULT NULL COMMENT '楼号',
+  `unitNumber` varchar(50) DEFAULT NULL COMMENT '单元号',
+  `roomNumber` varchar(50) DEFAULT NULL COMMENT '房间号',
+  PRIMARY KEY (`house_id`),
+  KEY `community_id` (`community_id`),
+  CONSTRAINT `system_house_ibfk_1` FOREIGN KEY (`community_id`) REFERENCES `system_community` (`community_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='房屋信息表'</sql_create_table>
+</table>
+<table name="system_identity" view="colnames">
+<left>192</left>
+<top>87</top>
+<width>165</width>
+<height>146</height>
+<sql_create_table>CREATE TABLE `system_identity` (
+  `identity_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '身份类型编号',
+  `identity_name` varchar(50) DEFAULT NULL COMMENT '身份名称',
+  PRIMARY KEY (`identity_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COMMENT='身份信息表'</sql_create_table>
+</table>
+<table name="system_user" view="colnames">
+<left>454</left>
+<top>134</top>
+<width>220</width>
+<height>322</height>
+<sql_create_table>CREATE TABLE `system_user` (
+  `user_id` bigint(20) NOT NULL COMMENT '用户编号',
+  `name` varchar(50) DEFAULT NULL COMMENT '用户名称',
+  `sex` varchar(50) DEFAULT NULL COMMENT '性别',
+  `age` varchar(50) DEFAULT NULL COMMENT '年龄',
+  `phone` varchar(50) DEFAULT NULL COMMENT '手机号',
+  `identity_id` int(11) DEFAULT NULL COMMENT '身份类型编号',
+  `user_type_id` int(11) DEFAULT NULL COMMENT '用户类型编号',
+  `certificate_id` int(11) DEFAULT NULL COMMENT '证件类型编号',
+  `identification_number` varchar(50) DEFAULT NULL COMMENT '证件号码',
+  `house_id` bigint(20) DEFAULT NULL COMMENT '所在房屋编号',
+  PRIMARY KEY (`user_id`),
+  KEY `identity_id` (`identity_id`),
+  KEY `user_type_id` (`user_type_id`),
+  KEY `certificate_id` (`certificate_id`),
+  KEY `house_id` (`house_id`),
+  CONSTRAINT `system_user_ibfk_1` FOREIGN KEY (`identity_id`) REFERENCES `system_identity` (`identity_id`),
+  CONSTRAINT `system_user_ibfk_2` FOREIGN KEY (`user_type_id`) REFERENCES `system_user_type` (`user_type_id`),
+  CONSTRAINT `system_user_ibfk_3` FOREIGN KEY (`certificate_id`) REFERENCES `system_certificate` (`certificate_id`),
+  CONSTRAINT `system_user_ibfk_4` FOREIGN KEY (`house_id`) REFERENCES `system_house` (`house_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='用户信息表'</sql_create_table>
+</table>
+<table name="system_user_type" view="colnames">
+<left>798</left>
+<top>90</top>
+<width>156</width>
+<height>146</height>
+<sql_create_table>CREATE TABLE `system_user_type` (
+  `user_type_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '用户类型编号',
+  `name` varchar(50) DEFAULT NULL COMMENT '类型名词',
+  PRIMARY KEY (`user_type_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COMMENT='用户类型表'</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>
