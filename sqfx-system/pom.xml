@@ -18,6 +18,26 @@
             <groupId>com.lzxx</groupId>
             <artifactId>sqfx-common</artifactId>
         </dependency>
+        <!--物业模块依赖-->
+        <dependency>
+            <groupId>com.lzxx</groupId>
+            <artifactId>sqfx-property</artifactId>
+        </dependency>
+        <!--定时模块依赖-->
+        <dependency>
+            <groupId>com.lzxx</groupId>
+            <artifactId>sqfx-quartz</artifactId>
+        </dependency>
+        <!--商城模块依赖-->
+        <dependency>
+            <groupId>com.lzxx</groupId>
+            <artifactId>sqfx-shop</artifactId>
+        </dependency>
+        <!--便民模块依赖-->
+        <dependency>
+            <groupId>com.lzxx</groupId>
+            <artifactId>sqfx-convenient</artifactId>
+        </dependency>
         <!--代码生成器，MyBatis-Plus 从 3.0.3 之后移除了代码生成器与模板引擎的默认依赖，需要手动添加相关依赖-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -42,16 +62,4 @@
         </dependency>
     </dependencies>
 
-    <packaging>war</packaging>
-    <build>
-        <!-- 为war包取名 -->
-        <finalName>sqfx</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.4.3</version>
-            </plugin>
-        </plugins>
-    </build>
 </project>

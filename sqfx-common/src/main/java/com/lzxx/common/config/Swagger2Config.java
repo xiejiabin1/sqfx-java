@@ -23,7 +23,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @version 1.0
  * @description: swagger2配置类
  * @date 2021/2/21
- * 访问路径：http://localhost:4399/doc.html（本机）
+ * 访问路径：http://localhost:5000/doc.html（本机）
  */
 @Configuration
 @EnableSwagger2

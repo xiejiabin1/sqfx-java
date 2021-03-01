@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 
 /**
  * @description: 数据库链接池druid监控平台的配置
- * 访问路径 http://localhost:4399/druid/index.html（本机）
+ * 访问路径 http://localhost:5000/druid/index.html（本机）
  * @author: 先谢郭嘉
  **/
 @Configuration
