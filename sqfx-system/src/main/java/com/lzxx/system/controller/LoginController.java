@@ -104,7 +104,6 @@ public class LoginController {
             UserPhoneDto userPhone = new UserPhoneDto();
 
             if (!StringUtils.isEmpty(result) && result.length()>0) {
-
                 userPhone.setCountryCode(userPhoneJSON.getString("countryCode"));
                 userPhone.setPhoneNumber(userPhoneJSON.getString("phoneNumber"));
                 userPhone.setPurePhoneNumber(userPhoneJSON.getString("purePhoneNumber"));
