@@ -14,7 +14,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@ApiModel(value="UserPhoneDto对象", description="用户手机号等数据")
+@ApiModel(value="UserPhoneDto对象", description="用户手机号数据")
 public class UserPhoneDto {
 
     @ApiModelProperty(value = "没有区号的手机号")

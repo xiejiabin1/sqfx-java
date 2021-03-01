@@ -11,16 +11,16 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 用户信息表
+ * 微信用户信息表
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2021-02-24
+ * @since 2021-03-01
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("system_user")
-@ApiModel(value="User对象", description="用户信息表")
+@ApiModel(value="User对象", description="微信用户信息表")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -41,7 +41,7 @@ public class User implements Serializable {
     @TableField("age")
     private String age;
 
-    @ApiModelProperty(value = "手机号")
+    @ApiModelProperty(value = "微信绑定手机号")
     @TableField("phone")
     private String phone;
 
@@ -64,5 +64,6 @@ public class User implements Serializable {
     @ApiModelProperty(value = "所在房屋编号")
     @TableField("house_id")
     private Long houseId;
+
 
 }

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2021-02-24
+ * @since 2021-03-01
  */
 @RestController
 @RequestMapping("/user-type")

@@ -5,11 +5,11 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- * 用户信息表 服务类
+ * 微信用户信息表 服务类
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2021-02-24
+ * @since 2021-03-01
  */
 public interface IUserService extends IService<User> {
 

@@ -15,7 +15,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2021-02-24
+ * @since 2021-03-01
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -29,7 +29,7 @@ public class Community implements Serializable {
     @TableId("community_id")
     private String communityId;
 
-    @ApiModelProperty(value = "社区名词")
+    @ApiModelProperty(value = "社区名称")
     @TableField("community_name")
     private String communityName;
 

@@ -16,7 +16,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author 先谢郭嘉
- * @since 2021-02-24
+ * @since 2021-03-01
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -26,9 +26,11 @@ public class Identity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @ApiModelProperty(value = "身份类型编号")
     @TableId(value = "identity_id", type = IdType.AUTO)
     private Integer identityId;
 
+    @ApiModelProperty(value = "身份名称")
     @TableField("identity_name")
     private String identityName;
 
