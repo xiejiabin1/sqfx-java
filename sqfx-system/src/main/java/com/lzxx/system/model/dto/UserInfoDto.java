@@ -16,6 +16,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 @ApiModel(value="UserInfoDto对象", description="解密后的用户敏感数据")
 public class UserInfoDto {
+
     @ApiModelProperty(value = "小程序唯一标识")
     @TableField("openid")
     private String openid;
