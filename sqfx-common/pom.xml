@@ -8,6 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
     <artifactId>sqfx-common</artifactId>
     <description>公共模块</description>
@@ -66,7 +67,7 @@
             <artifactId>Dm8JdbcDriver</artifactId>
             <version>18</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/libs/DmJdbcDriver18.jar</systemPath>
+            <systemPath>D:/space/java/sqfx-java/sqfx-common/src/main/resources/libs/DmJdbcDriver18.jar</systemPath>
         </dependency>
         <!--证书请求-->
         <dependency>

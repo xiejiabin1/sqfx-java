@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="sqfx-system-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="sqfx.war">
       <element id="artifact" artifact-name="sqfx-system:war exploded" />
     </root>
   </artifact>

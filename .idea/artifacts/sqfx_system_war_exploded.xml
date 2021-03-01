@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="sqfx-system:war exploded">
-    <output-path>$PROJECT_DIR$/sqfx-system/target/sqfx-system-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/sqfx-system/target/sqfx</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -71,6 +71,18 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.21" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.64" />
+          <element id="archive" name="sqfx-property-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="sqfx-property" />
+          </element>
+          <element id="archive" name="sqfx-quartz-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="sqfx-quartz" />
+          </element>
+          <element id="archive" name="sqfx-shop-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="sqfx-shop" />
+          </element>
+          <element id="archive" name="sqfx-convenient-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="sqfx-convenient" />
+          </element>
           <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-generator:3.4.0" />
           <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-extension:3.4.0" />
           <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-core:3.4.0" />
@@ -96,7 +108,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/sqfx-system/target/sqfx-system-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/sqfx-system/target/sqfx/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="sqfx-system/web/Web" />
     </root>
