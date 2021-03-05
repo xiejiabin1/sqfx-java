@@ -30,6 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/system/login")
 @Slf4j
 public class LoginController {
+
     @ApiOperation(value = "解密用户敏感数据",httpMethod = "POST")
     @PostMapping("/decodeUserInfo")
     public ResultJSON<UserInfoDto> decodeUserInfo(@ApiParam(value = "加密数据",name = "encryptedData",required = true) String encryptedData,
